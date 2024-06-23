@@ -168,7 +168,7 @@ header {
 }
 
 .bottom-right {
-    background-image: url(../img/123.jpg);
+    background-image: url(./img/123.jpg);
     display: flex;
     width: 680px;
     height: 712px;
