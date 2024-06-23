@@ -1,0 +1,401 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1240px;
+}
+
+.logo {
+    display: flex;
+}
+
+.font {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.Munu {
+    font-family: Jost;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21.68px;
+    text-align: left;
+}
+
+.heder-right {
+    display: flex;
+}
+
+main {
+    background-color: #EEEFF1;
+    height: 1046px;
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding-top: 24px;
+}
+
+.header-text {
+    justify-content: space-evenly;
+    display: flex;
+    width: 432px;
+    align-items: center;
+}
+
+.black {
+    background-color: black;
+    width: 208px;
+    height: 56px;
+    border-radius: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.text-black {
+    color: rgb(255, 255, 255);
+}
+
+.black:hover {
+    background-color: white;
+    color: black;
+
+    .text-black {
+        color: black;
+    }
+}
+
+.bascet {
+    justify-content: space-between;
+    display: flex;
+    width: 284px;
+}
+
+.carzina {
+    justify-content: center;
+    width: 56px;
+    background-color: white;
+    height: 56px;
+    display: flex;
+    border-radius: 63px;
+    align-items: center;
+
+}
+
+.carzina:hover {
+    background-color: dimgrey;
+}
+
+.bottom_header {
+    display: flex;
+    padding-top: 124px;
+}
+
+.bottom-left {
+    width: 626px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
+}
+
+.bottom-text {
+    font-family: Jost;
+    font-size: 124px;
+    font-weight: 800;
+    line-height: 140px;
+    text-align: left;
+
+}
+
+.bottom-text_two {
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34.68px;
+    text-align: left;
+    width: 530px;
+    color: rgba(100, 100, 106, 1);
+}
+
+.download {
+    background-color: black;
+    width: 208px;
+    height: 56px;
+    border-radius: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.text-download {
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: white;
+}
+
+.download:hover {
+    background-color: white;
+    color: black;
+
+    .text-download {
+        color: black;
+    }
+}
+
+.pod-text {
+    display: flex;
+    width: 376px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.White {
+    display: flex;
+    border-bottom: 1px solid rgba(27, 27, 29, 1)
+}
+
+.bottom-right {
+    background-image: url(../img/123.jpg);
+    display: flex;
+    width: 680px;
+    height: 712px;
+
+}
+
+.bottom-five_stars {
+    margin-top: 391px;
+    display: flex;
+    width: 270px;
+    height: 140px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 24px;
+
+}
+
+.text-stars {
+    font-family: Jost;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: rgba(100, 100, 106, 1);
+
+}
+
+.five_stars {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 232px;
+    height: 100px;
+}
+
+
+
+.exploer-our {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    margin-top: 140px;
+}
+
+.exploer-text {
+    font-family: Jost;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 70px;
+    text-align: center;
+
+}
+
+.exploer-text_two {
+    width: 604px;
+    height: 70px;
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34.68px;
+    text-align: center;
+    color: rgba(100, 100, 106, 1);
+
+}
+
+.cards {
+    justify-content: space-between;
+    display: flex;
+}
+
+.card {
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    width: 394px;
+    height: 540px;
+    border-radius: 24px;
+    background-color: white;
+}
+
+.card-text {
+    flex-direction: column;
+    align-items: center;
+    width: 316px;
+    height: 130px;
+    display: flex;
+}
+
+.text-card {
+    font-family: Jost;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 52.02px;
+    text-align: left;
+}
+
+.text-card_two {
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34.68px;
+    text-align: left;
+    color: rgba(100, 100, 106, 1);
+
+}
+
+.black-card {
+    background-color: black;
+    width: 208px;
+    height: 56px;
+    border-radius: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.black-text {
+    color: rgb(255, 255, 255);
+}
+
+.black-card:hover {
+    background-color: white;
+    color: black;
+
+    .black-text {
+        color: black;
+    }
+}
+
+
+
+.order-your {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-order {
+    font-family: Jost;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 70px;
+    text-align: left;
+
+}
+
+.text-order_two {
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34.68px;
+    text-align: left;
+    color: rgba(100, 100, 106, 1);
+}
+
+.black-order {
+    background-color: black;
+    width: 208px;
+    height: 56px;
+    border-radius: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.order-text_black {
+    color: rgb(255, 255, 255);
+}
+
+.black-order:hover {
+    background-color: white;
+    color: black;
+
+    .order-text_black {
+        color: black;
+    }
+}
+
+.cofee {
+    display: flex;
+    margin-top: 140px;
+}
+
+.Custom {
+    margin-top: 140px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.custom-text {
+    font-family: Jost;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 70px;
+    text-align: center;
+    width: 454px;
+    height: 140px;
+
+}
+
+.grade {
+    display: flex;
+    flex-direction: column;
+}
+
+.Grade {
+    display: flex;
+}
+
+.text-grade {
+    font-family: Jost;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: left;
+}
+
+.text-based {
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: rgba(100, 100, 106, 1);
+}
